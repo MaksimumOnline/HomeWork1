@@ -174,7 +174,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://162.55.220.72:5005/object_info_3?name=28&age=28&salary=500",
+					"raw": "http://162.55.220.72:5005/object_info_3?name=Maks&age=28&salary=500",
 					"protocol": "http",
 					"host": [
 						"162",
@@ -189,7 +189,7 @@
 					"query": [
 						{
 							"key": "name",
-							"value": "28"
+							"value": "Maks"
 						},
 						{
 							"key": "age",
@@ -210,7 +210,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://162.55.220.72:5005/object_info_4?name=Maksim&age=28&salary=550",
+					"raw": "http://162.55.220.72:5005/object_info_4?name=Maksim&age=28&salary=500",
 					"protocol": "http",
 					"host": [
 						"162",
@@ -233,7 +233,7 @@
 						},
 						{
 							"key": "salary",
-							"value": "550"
+							"value": "500"
 						}
 					]
 				}
@@ -267,8 +267,28 @@
 						"disabled": true
 					}
 				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Maksim",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "28",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "100",
+							"type": "text"
+						}
+					]
+				},
 				"url": {
-					"raw": "http://162.55.220.72:5005/user_info_2?name=maksim&age=28&salary=500",
+					"raw": "http://162.55.220.72:5005/user_info_2",
 					"protocol": "http",
 					"host": [
 						"162",
@@ -283,15 +303,18 @@
 					"query": [
 						{
 							"key": "name",
-							"value": "maksim"
+							"value": "maks",
+							"disabled": true
 						},
 						{
 							"key": "age",
-							"value": "28"
+							"value": "28",
+							"disabled": true
 						},
 						{
 							"key": "salary",
-							"value": "500"
+							"value": "500",
+							"disabled": true
 						}
 					]
 				}
